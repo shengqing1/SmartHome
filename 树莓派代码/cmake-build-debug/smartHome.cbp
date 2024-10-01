@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="smartHome"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\lib\;CMake Files\..\..\..\usr\local\lib\aarch64-linux-gnu\;CMake Files\..\..\..\usr\local\lib\aarch64-linux-gnu\cmake\;CMake Files\..\..\..\usr\local\lib\aarch64-linux-gnu\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/root/CLionProjects/smartHome/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/root/CLionProjects/smartHome/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/root/CLionProjects/smartHome/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smartHome">
+				<Option output="/root/CLionProjects/smartHome/cmake-build-debug/smartHome" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/CLionProjects/smartHome/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 smartHome"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smartHome/fast">
+				<Option output="/root/CLionProjects/smartHome/cmake-build-debug/smartHome" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/CLionProjects/smartHome/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 smartHome/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/root/CLionProjects/smartHome/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/root/CLionProjects/smartHome/main.cpp">
+			<Option target="smartHome"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/smartHome/main.h">
+			<Option target="smartHome"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/smartHome/mqtt.cpp">
+			<Option target="smartHome"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/smartHome/mqtt.h">
+			<Option target="smartHome"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/smartHome/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/smartHome/../../../usr/local/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/smartHome/../../../usr/local/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/smartHome/../../../usr/local/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/smartHome/../../../usr/local/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
