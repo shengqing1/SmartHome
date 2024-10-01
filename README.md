@@ -48,6 +48,8 @@
   ## 2. 部署步骤
 
   网上教程很多，不详细介绍
+  ![华为云IOT](https://github.com/user-attachments/assets/963c378f-cce9-43b0-a0db-2fc21a44144d)
+
 
   ## 3. 华为云IoT平台功能
 
@@ -66,6 +68,8 @@
   2. **修改设备属性**: 通过设备影子修改设备属性，下发指令给设备。
 
   # 树莓派系统开发
+  ![树莓派系统](https://github.com/user-attachments/assets/8e5b004d-0089-4375-b118-0031d149ff3c)
+
 
   ## 1. 功能概述
 
@@ -122,6 +126,8 @@
   - `main.h`: 主函数的头文件。
 
   - `main.cpp`: 主函数的实现文件。
+![clion](https://github.com/user-attachments/assets/6fa5102e-5a00-4595-9ebb-98bb7bfddf71)
+
 
   ### 3.2 代码解析
 
@@ -237,6 +243,8 @@
   2. **数据上报**: 将设备数据（如传感器数据）发送至华为云平台。
   3. **设备影子**: 从华为云平台获取设备影子数据，实现设备状态的同步。
   4. **视频监控**: 通过网页摄像头实现实时视频监控。
+![运行截图](https://github.com/user-attachments/assets/fa8f7616-d705-4709-83ba-93d072f01ebc)
+
 
   ## 4. 注意事项
 
